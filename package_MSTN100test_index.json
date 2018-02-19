@@ -11,7 +11,7 @@
 					"name": "MSTNtest",
 					"architecture": "sam",
 					"version": "1.0.8",
-					"url": "file:///C:/Users/Intec/AppData/Local/Arduino15/staging/packages/industruino-samd-1.0.1.tar.bz2",
+					"url": "C:/Users/Intec/AppData/Local/Arduino15/staging/packages/industruino-samd-1.0.1.tar.bz2",
 					"archiveFileName": "industruino-samd-1.0.1.tar.bz2",
 					"checksum": "SHA-256:62D06A9662CC084279C2D3B11E73267FCEE96EB31DE8F6FA37A8100D74D044A1",
 					"size": "530250",
