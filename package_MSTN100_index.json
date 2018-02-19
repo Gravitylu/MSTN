@@ -38,8 +38,8 @@
 						}
 					]
 				}
-			]
-			"tools":
+			],
+			"tools": 
 			[
 				{
 					"name": "arm-none-eabi-gcc",
