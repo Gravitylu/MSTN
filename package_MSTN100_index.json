@@ -2,6 +2,7 @@
 	"packages":
 	[
 	
+	
 		{
 			"name": "MSTN",
 			"maintrainer": "MSTN",
@@ -36,7 +37,7 @@
 							"packager": "CMSIS",
 							"name": "CMSIS",
 							"version": "4.5.0"
-						},
+						}
 					]
 				},
 			]
