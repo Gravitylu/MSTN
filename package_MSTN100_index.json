@@ -5,7 +5,8 @@
 			"name": "MSTN",
 			"maintrainer": "MSTN",
 			"websiteURL": "https://mstn.info",
-			"platforms":[
+			"platforms":
+			[
 				{
 					"name": "MSTN",
 					"architecture": "sam",
@@ -14,28 +15,30 @@
 					"archiveFileName": "package_MSTN_index.zip",
 					"checksum": "SHA-256:62D06A9662CC084279C2D3B11E73267FCEE96EB31DE8F6FA37A8100D74D044A1",
 					"size": "530250",
-					"boards": [
+					"boards":
+					[
 						{"name": "MSTN-100"}
 					],
-				"toolsDependencies": [
-				{
-				  "packager": "MSTN",
-				  "name": "arm-none-eabi",
-				  "version": "5.4-2016q3"
+					"toolsDependencies": 
+					[
+						{
+							  "packager": "MSTN",
+							  "name": "arm-none-eabi",
+							  "version": "5.4-2016q3"
+						},
+						{
+							  "packager": "MSTN",
+							  "name": "client",
+							  "version": "1.0.0"
+						},
+						{
+							"packager": "CMSIS",
+							"name": "CMSIS",
+							"version": "4.5.0"
+						},
+					]
 				},
-				{
-				  "packager": "MSTN",
-				  "name": "client",
-				  "version": "1.0.0"
-				},
-				{
-                "packager": "CMSIS",
-                "name": "CMSIS",
-                "version": "4.5.0"
-                },
-				]
-				},
-				]
+			]
 		  "tools":[
 		  {
 		  "name": "arm-none-eabi-gcc",
