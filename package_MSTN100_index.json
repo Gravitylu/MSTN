@@ -10,7 +10,7 @@
 				{
 					"name": "MSTN",
 					"architecture": "sam",
-					"version": "1.0.1",
+					"version": "1.0.2",
 					"url": "file:///C:/IDE-packs/MSTN/hardware/package_MSTN_index.zip",
 					"archiveFileName": "package_MSTN_index.zip",
 					"checksum": "SHA-256:62D06A9662CC084279C2D3B11E73267FCEE96EB31DE8F6FA37A8100D74D044A1",
@@ -39,7 +39,8 @@
 					]
 				},
 			]
-		  "tools":[
+		  "tools":
+		  [
 				{
 				  "name": "arm-none-eabi-gcc",
 				  "version": "5.4-2016q3",
